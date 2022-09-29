@@ -8,20 +8,15 @@ body {
   background-color: #d9dcd6; /* light grey */
 }
 
-/* The elements that appear multiple times throughout the HTML coding within different sections are placed at the top of the CSS sheet followed by the remaining elements in sequential order. */
+/* The commonly used elements throughout the HTML file (<p> and <a>) are ordered first. The remaning elements are organised sequentially in regards to the HTML file.*/
 
 p {
   font-size: 16px;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
+a {
+  color: #ffffff; /* white */
+  text-decoration: none;
 }
 
 header {
@@ -37,6 +32,7 @@ header h1 {
   font-size: 48px;
 }
 
+/*changes the colour of the letters 'seo' in Horiseon*/
 header h1 .seo {
   color: #d9dcd6; /* light grey */
 }
@@ -56,11 +52,6 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
-}
-
-a {
-  color: #ffffff; /* white */
-  text-decoration: none;
 }
 
 .hero {
@@ -91,6 +82,11 @@ a {
   max-height: 200px;
 }
 
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -107,6 +103,11 @@ a {
 
 .online-reputation-management img {
   max-height: 200px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
 }
 
 .online-reputation-management h2 {
