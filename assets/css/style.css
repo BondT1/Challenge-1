@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6; /* light grey */
 }
 
-/* The commonly used elements throughout the HTML file (<p> and <a>) are ordered first. The remaning elements are organised sequentially in regards to the HTML file.*/
+/* The commonly used elements throughout the HTML file (<p> and <a>) are ordered first. The remaining elements are organized sequentially in regards to the HTML file.*/
 
 p {
   font-size: 16px;
@@ -32,7 +32,7 @@ header h1 {
   font-size: 48px;
 }
 
-/*changes the colour of the letters 'seo' in Horiseon*/
+/* changes the colour of the letters 'seo' in Horiseon */
 header h1 .seo {
   color: #d9dcd6; /* light grey */
 }
